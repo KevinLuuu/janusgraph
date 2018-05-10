@@ -54,6 +54,11 @@
             <version>${hbase100.version}</version>
         </dependency>
         <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-shaded-server</artifactId>
+            <version>${hbase100.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.janusgraph</groupId>
             <artifactId>janusgraph-bigtable</artifactId>
             <version>${project.version}</version>
